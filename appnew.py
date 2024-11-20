@@ -7,6 +7,11 @@ import numpy as np
 import tensorflow as tf
 print(tf.__version__)
 
+try:
+    from streamlit_authenticator import Authenticate
+except ModuleNotFoundError:
+    st.error("streamlit_authenticator module is not installed.")
+
 # Streamlit UI Elements
 st.set_page_config(page_title="SmartFARM", page_icon="🌾")
 
