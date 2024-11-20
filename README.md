@@ -1,1 +1,1 @@
-# cnnklasifikasPenyakitDaunPadi
+# CNNklasifikasPenyakitDaunPadi
