@@ -5,6 +5,9 @@ import hashlib
 from PIL import Image
 import numpy as np
 import tensorflow as tf
+import pymysql
+pymysql.install_as_MySQLdb()
+
 print(tf.__version__)
 
 try:
